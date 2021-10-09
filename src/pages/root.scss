@@ -1,0 +1,27 @@
+nav {
+    background-color: #1C212A;
+    padding: 1px;
+    position: absolute;
+    width: calc(100vw - 4rem);
+    top: 2rem;
+    left: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        
+        li {
+            display: inline-block;
+            margin: 0 1rem;
+
+            a {
+                color: #626C80;
+                text-decoration: none;
+            }
+        }
+    }
+}
